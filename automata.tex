@@ -1,5 +1,5 @@
 \RequirePackage[orthodox]{nag}
-\documentclass[11pt, reqno]{amsart}
+\documentclass[11pt, reqno]{article}
 
 \usepackage{amsmath}
 	\numberwithin{equation}{section}
@@ -106,13 +106,44 @@
 
 \begin{document}
 \maketitle
-\include{week1} % 12 Sep -- 18 Sep
-%\include{week2} % 19 Sep -- 25 Sep
-%\include{week3} % 26 Sep --  2 Oct
-%\include{week4} %  2 Oct --  8 Oct
-%\include{week5} %  9 Oct -- 15 Oct
-%\include{week6} % 16 Oct -- 22  Oct
-%\include{week7} % 23 Oct -- 29  Oct
-%\include{week8} % 30 Oct --  5  Nov
+
+\tableofcontents
+
+% =========== LECTURE NOTES ===========
+% --------------- WEEK 1 --------------
+\include{week1/notes}       % 12 Sep -- 18 Sep
+%\include(week1/homework}   % Finite Automata
+
+% --------------- WEEK 2 --------------
+%\include{week2/notes}      % 19 Sep -- 25 Sep
+%\include(week2/homework_1} 
+%\include(week2/homework_2}
+
+% --------------- WEEK 3 --------------
+%\include{week3/notes}      % 26 Sep -- 02 Oct
+%\include(week3/homework}   % Context Free Language
+
+% --------------- WEEK 4 --------------
+%\include{week4/notes}      % 02 Oct -- 09 Oct
+%\include(week4/homework}   % PDA's and CFL Properties
+
+% --------------- WEEK 5 --------------
+%\include{week5/notes}      %  9 Oct -- 16 Oct
+%\include(week5/homework}   % Turing Machine
+
+% --------------- WEEK 6 --------------
+%\include{week6/notes}      % 16 Oct -- 23  Oct
+%\include(week6/homework}   % NP-Completeness and Undecidability
+
+% ============ ASSIGNMENTS ============
+% ------------ PROGRAMMING ------------
+%\include{assignments/program_1}
+%\include{assignments/program_2}
+
+% ---------- PROBLEM SESSION ----------
+%\include{assignments/session_1}
+%\include{assignments/session_2}
+%\include{assignments/session_3}
+%\include{assignments/session_4}
 
 \end{document}
